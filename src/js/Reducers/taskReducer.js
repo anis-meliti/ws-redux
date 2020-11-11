@@ -23,6 +23,7 @@ const intialState = {
       isEdited: false,
     },
   ],
+  users: [{ name: 'Jon' }],
 };
 const taskReducer = (state = intialState, { type, payload }) => {
   switch (type) {
